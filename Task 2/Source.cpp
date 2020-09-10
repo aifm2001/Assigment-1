@@ -24,7 +24,7 @@ void readFromFile(char FileName[], int storage[], int &noOFEn)
 int main()
 {
 	int count, stor[100];
-	char filename[10] = { "Ahmed.txt" };
+	char filename[10] = { "Mahmoud.txt" };
 	readFromFile(filename, stor, count);
 	Show (count, stor);
 	system("pause");
